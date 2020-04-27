@@ -1,0 +1,153 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+#map-container {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+}
+
+#map-view {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+}
+
+#candle-1 {
+    position: absolute;
+    bottom: 1px;
+    left: 350px;
+}
+
+#candle-2 {
+    position: absolute;
+    bottom: 1px;
+    right: 350px;
+}
+
+#toolbar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-image: url("../img/bar_black.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #340501;
+}
+
+#orb-bg {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 60px;
+    width: 558px;
+    height: 220px;
+    background-image: url("../img/orb_bg.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+    pointer-events: none;
+}
+
+#orb {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 75px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #211915;
+    z-index: 0;
+}
+
+.gmnoprint:nth-of-type(4),
+.gmnoprint:nth-of-type(6) {
+    top: 0 !important;
+    bottom: unset !important;
+}
+
+#orb-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+#vol {
+    position: absolute;
+    bottom: 11px;
+    width: 100px;
+    height: 30px;
+    left: 55px;
+}
+
+.btn {
+    position: absolute;
+    bottom: 11px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:focus,
+.btn.active {
+    border: 2px solid red;
+    color: red;
+}
+
+#btn-audio-1 {
+    left: 170px;
+}
+
+#btn-audio-2 {
+    left: 210px;
+}
+
+#btn-audio-3 {
+    left: 250px;
+}
+
+#btn-incr {
+    left: 50%;
+    margin-left: -150px;
+}
+
+#btn-decr {
+    right: 50%;
+    margin-right: -150px;
+}
+
+.inline-image {
+    display: inline-block;
+    height: 1em;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+
+#dice3000 {
+    color: #fff;
+    position: absolute;
+    right: 50px;
+    bottom: 20px;
+}
