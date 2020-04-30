@@ -23,13 +23,13 @@ body {
 #candle-1 {
     position: absolute;
     bottom: 1px;
-    left: 350px;
+    left: 500px;
 }
 
 #candle-2 {
     position: absolute;
     bottom: 1px;
-    right: 350px;
+    right: 500px;
 }
 
 #toolbar {
@@ -127,6 +127,10 @@ body {
 
 #btn-audio-3 {
     left: 250px;
+}
+
+#btn-audio-4 {
+    left: 290px;
 }
 
 #btn-incr {
