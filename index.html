@@ -16,14 +16,14 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/candle.css">
-  <link rel="stylesheet" href="css/rain.css">
+<!--  <link rel="stylesheet" href="css/rain.css">-->
   <link rel="stylesheet" href="css/orb.css">
 </head>
 
 <body>
-<div id="rain-container">
+<!--<div id="rain-container">-->
   <!-- x150 i.rain -->
-</div>
+<!--</div>-->
 
 <div id="map-container">
   <div id="map-view"></div>
@@ -35,10 +35,6 @@
   <div id="btn-audio-2" class="btn btn-audio" data-src="audio/lucifer_mantra.mp3" title="Lucifer Gnosis Mantra">2</div>
   <div id="btn-audio-3" class="btn btn-audio" data-src="audio/salve_regina.mp3" title="Salve Regina">3</div>
   <div id="btn-audio-4" class="btn btn-audio" data-src="audio/halo.mp3" title="Halo">4</div>
-
-  <div id="btn-incr" class="btn" title="Sacrifice a Soul">+</div>
-  <div id="btn-decr" class="btn" title="Save a Soul">-</div>
-
 </div>
 <div id="orb-bg"></div>
 <div id="orb" title="Souls Sacrificed">
@@ -47,7 +43,7 @@
       <div class="orb-water" style="top: 45%"></div>
     </div>
   </div>
-  <div id="orb-text">337</div>
+  <div id="orb-text"></div>
 </div>
 
 <div id="candle-1" class="candle">
@@ -74,6 +70,10 @@
 
 <div id="dice3000" title="W H OMEGALUL">Made by dice3000 <img src="img/ez_small.png" class="inline-image" alt=""></div>
 
+<script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-auth.js"></script>
 <script src="js/app.js"></script>
+<script type="module" src="js/map.mjs"></script>
 </body>
 </html>
