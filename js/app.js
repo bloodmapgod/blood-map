@@ -1,8 +1,8 @@
-for (let i=0; i<150; i++) {
-  const drop = document.createElement('i');
-  drop.classList.add('rain');
-  document.getElementById('rain-container').appendChild(drop);
-}
+// for (let i=0; i<150; i++) {
+//   const drop = document.createElement('i');
+//   drop.classList.add('rain');
+//   document.getElementById('rain-container').appendChild(drop);
+// }
 
 const tracks = [];
 document.querySelectorAll('.btn-audio').forEach(el => {
